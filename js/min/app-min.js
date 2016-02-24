@@ -1,0 +1,1 @@
+!function(){$(window).load(function(){var o=$(".headerLogo").find("img"),a=$(".proxi");o.addClass("jello"),setTimeout(function(){a.addClass("flash")},2e3)})}();
