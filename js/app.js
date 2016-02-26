@@ -1,13 +1,1 @@
-(function(){
-  $(window).load(function(){
-    var $logo = $(".headerLogo").find("img");
-    var $proxi = $(".proxi");
-
-    $logo.addClass("jello");
-
-    setTimeout(function(){
-      $proxi.addClass("flash");
-    }, 2000)
-  });
-
-})();
+$(document).ready(function(){if($('[data-toggle="tooltip"]').tooltip(),window.matchMedia("(min-width: 900px)").matches){var e=$(window),o=1.2,t=180;e.on("mousewheel DOMMouseScroll",function(n){n.preventDefault();var i=n.originalEvent.wheelDelta/120||-n.originalEvent.detail/3,a=e.scrollTop(),l=a-parseInt(i*t);TweenMax.to(e,o,{scrollTo:{y:l,autoKill:!0},ease:Power1.easeOut,autoKill:!0,overwrite:5})});var n=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:"onCenter"}}),i=(new TimelineMax).add([TweenMax.fromTo("#triggerMountain img",1,{y:"100"},{y:"-50"})]);new ScrollMagic.Scene({triggerElement:"#triggerMountain",duration:"74%",offset:"-120"}).setTween(i).addTo(n)}});
