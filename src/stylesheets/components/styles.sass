@@ -1,0 +1,134 @@
+body
+  position: relative
+  background-image: url("../img/footer.jpg")
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+  +desktop
+    background-image: inherit
+    background-color: #282a2c
+
+.tooltip
+  font-size: 16px
+
+.sky
+  margin-bottom: 20em
+  +desktop-HD
+    margin-bottom: 10em
+    padding-bottom: 10em
+
+  &-image
+    display: none
+    +desktop
+      display: block
+      position: absolute
+      top: -8em
+      z-index: -2
+      width: 100%
+      img
+        width: 100%
+
+  &-header
+    padding-top: 6em
+    +flex(column, center, center)
+
+.mountains
+  padding-bottom: 10em
+  +desktop
+    padding-bottom: 20em
+  +desktop-HD
+    padding-top: 15em
+    padding-bottom: 15em
+  &-image
+    display: none
+    +desktop
+      display: block
+      position: absolute
+      bottom: 0
+      z-index: -1
+      width: 100%
+      overflow: hidden
+      img
+        width: 100%
+
+  &-copyright
+    position: absolute
+    bottom: 0
+    z-index: 1
+    width: 100%
+    background-color: $blue-quehayenloja
+    .rights
+      color: white
+
+  &-footer
+    +flex(column, center, center)
+    .buttonsContainer
+      &-title
+        color: white
+        text-shadow: 0px 4px 14px black
+      .buttons
+        margin-top: 30px
+        +flex(column, center, center)
+
+        .btn-default
+          width: 250px
+          border: none
+          color: white
+          transition: 0.3s ease
+          i
+            margin-right: 15px
+        .btn-suscription
+          margin-bottom: 30px
+          background-color: rgba($blue-quehayenloja, 0.8)
+          border: 1px solid white
+          border-radius: 50px
+          &:hover
+            background-color: darken(rgba($blue-quehayenloja, 0.6), $n)
+        .btn-contact
+          margin-bottom: 10px
+          +tablet
+            margin-right: 30px
+            marign-bottom: 0
+          background-color: $orange-contact
+          &:hover
+            background-color: darken($orange-contact, $n)
+        .btn-tweet
+          background-color: $blue-twitter
+          &:hover
+            background-color: darken($blue-twitter, $n)
+
+        &-send
+          +flex(column, center, center)
+          +tablet
+            +flex(row, center, center)
+
+    .dividerLine
+      margin: 0 auto
+      height: 3px
+      border-radius: 50%
+      background-color: rgba($blue-quehayenloja, 0.6)
+      margin: 60px 0
+
+    .socialIcons
+      +flex(row, center, center)
+      &-link
+        margin-right: 50px
+        i
+          font-size: 30px
+          color: $gray
+          transition: 0.3s ease
+        &:last-child
+          margin-right: 0
+
+        .icon-twitter
+          &:hover
+            color: $blue-twitter
+        .icon-facebook2
+          &:hover
+            color: $blue-facebook
+        .icon-youtube
+          &:hover
+            color: $red-youtube
+        .icon-instagram
+          &:hover
+            color: $blue-instagram
