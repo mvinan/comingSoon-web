@@ -3,10 +3,7 @@
     <head>
       <meta charset="utf-8">
       <title>Que hay en loja</title>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/animate.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="css/icons.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="/css/styles.css" media="screen" title="no title" charset="utf-8">
       <link rel="image_src" href="img/logo-quehayenloja-copy.svg">
       <link rel="shortcut icon" href="img/favicon.ico" >
 
@@ -22,87 +19,50 @@
     </head>
     <body>
 
-      <section class="body">
-        <header class="headerContainer container">
-          <div class="headerDiv col-xs-12">
-            <nav>
-              <figure class="headerLogo">
-                  <img class="animated" src="img/logo-quehayenloja-copy.svg" alt="">
-              </figure>
-            </nav>
-            <div class="headerAgenda col-xs-10">
-              <h4>
-                La <span>agenda</span> completa de la cuidad de <span>loja</span>
-              </h4>
-            </div>
-          </div>
-        </header>
-
-        <div class="animated proxi">
-          <h1>En camino…</h1>
+      <section class="sky text-center">
+        <figure class="sky-image">
+          <img src="img/cielo-mod.jpg" alt="sky - loja" />
+        </figure>
+        <div class="sky-header">
+          <figure class="brand">
+            <img src="img/logo-quehayenloja.svg" alt="logo - quehayenloja" />
+          </figure>
+          <h1 class="title col-xs-11 col-sm-6 col-lg-4">La agenda más completa de la cuidad de Loja.</h1>
         </div>
-
-        <section class="sectionContenedor container">
-          <div class="sectionDiv col-xs-12">
-            <div class="sectionSuscribete col-xs-12">
-              <h4>
-                Suscribete a nuestra lista de seguidores
-              </h4>
-            </div>
-          </div>
-
-
-
-          <div class="sectionFormulario col-xs-12">
-            <div class="btnContainer">
-              <div class="btn-suscri row">
-                <a class="btn-suscribete" href="http://eepurl.com/bQpJmr">SUSCRIBIRSE</a>
-              </div>
-              <div class="bnt-conta row">
-                <a class="btn-contacto" href="mailto:hola@quehayenloja.com"><i class="icon icon-envelope"></i>Contáctanos</a>
-                <a type="" class="btn-enviar" href="https://twitter.com/QueHayEnLoja" target="_blank"><i class="icon icon-twitter"></i>Envíame un tweet</a>
-              </div>
-
-            </div>
-
-            <div class="sectionLinea col-xs-10">
-            </div>
-
-          </div>
-        </section>
       </section>
 
+      <section class="mountains">
+        <figure id="triggerMountain" class="mountains-image">
+          <img src="img/footer-montaña-quehayenloja.png" alt="" />
+        </figure>
 
-
-
-      <section class="footerExtension">
-        <footer class="footer">
-          <div class="footerContenedor">
-
-            <div class="footerSociales">
-              <a href="https://www.facebook.com/quehayenlojainfo/?fref=ts" class="social icon-facebook2" target="_blank"></a>
-              <a href="https://twitter.com/QueHayEnLoja" class="social icon-twitter" target="_blank"></a>
-              <a href="https://www.youtube.com/user/QueHayEnLoja" class="social icon-youtube" target="_blank"></a>
-              <!-- <a href="" class="social icon-instagram" target="_blank"></a> -->
+        <div class="mountains-footer text-center">
+          <article class="buttonsContainer">
+            <h3 class="buttonsContainer-title">Sucribete a nuestra lista de seguidores</h3>
+            <div class="buttons">
+              <a href="#" class="btn btn-default btn-lg btn-suscription">Suscribete</a>
+              <div class="buttons-send">
+                <a href="#" class="btn btn-default btn-lg btn-contact"><i class="icon-envelope"></i>Contáctanos</a>
+                <a href="#" class="btn btn-default btn-lg btn-tweet"><i class="icon-twitter"></i>Envíanos un tweet</a>
+              </div>
             </div>
-
-
-            <div class="footerLugar">
-              <p>
-                Loja - Ecuador
-              </p>
-            </div>
-
-            <div class="footerCopyright">
-              <p>
-                All rigths reserved, QueHayEnLoja ©2016
-              </p>
-            </div>
+          </article>
+          <div class="dividerLine col-xs-8"></div>
+          <div class="socialIcons">
+            <a href="#" class="socialIcons-link" data-toggle="tooltip" title="Envianos un tweet! 🤘" data-placement="top"><i class="icon-twitter"></i></a>
+            <a href="#" class="socialIcons-link" data-toggle="tooltip" title="Regalanos un like! 👍" data-placement="bottom"><i class="icon-facebook2"></i></a>
+            <a href="#" class="socialIcons-link" data-toggle="tooltip" title="Suscribete a nuestro canal! 📸" data-placement="top"><i class="icon-youtube"></i></a>
+            <a href="#" class="socialIcons-link" ><i class="icon-instagram" data-toggle="tooltip" title="Nuestras mejores fotos 😍" data-placement="bottom"></i></a>
           </div>
-        </footer>
+          <div class="mountains-copyright">
+            <h5 class="rights">All rights reverved, QueHayEnLoja ©2016</h5>
+          </div>
+        </div>
       </section>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-      <script src="js/min/app-min.js"></script>
-      <script src="js/min/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/animation.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/app.js"></script>
     </body>
 </html>
