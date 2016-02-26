@@ -69,17 +69,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-quehayenloja-copy@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10545,
-		"inputAbbreviatedPath": "\/img\/logo-quehayenloja-copy@2x.png",
-		"outputAbbreviatedPath": "\/img\/logo-quehayenloja-copy@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/logo-quehayenloja-copy@3x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -142,7 +131,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Que hay en loja",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_darkGray"
 	},
 "projectSettings": {

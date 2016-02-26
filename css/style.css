@@ -158,14 +158,19 @@ a:hover{
 
 .icon-facebook2:hover{
   color: #3b579d;
+  transition: 0.3s ease;
 }
-.icon-twitter:hover{
+.twitter:hover{
   color: #55acee;
+  transition: 0.3s ease;
 }
 .icon-youtube:hover{
   color: #e62117;
+  transition: 0.3s ease;
 }
-
+.icon-instagram{
+  transition: 0.3s ease;
+}
 
 
 
